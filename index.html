@@ -1,0 +1,28 @@
+<!doctype html><html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Dussehra Mela 3D – शुभ दशहरा</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪔</text></svg>">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/jsm/"}}</script>
+</head><body>
+<canvas id="c"></canvas>
+<div id="start"><div class="card">
+<h1>🪔 दशहरा मेला 🏹</h1><h2>Dussehra Mela 3D</h2>
+<p>Raat ka mela ghoomo – jhoole, giant wheel, golgappe aur Ravan Dahan!</p>
+<button id="go">▶ Mela mein chalo! (Start)</button>
+<p class="small">Desktop: W A S D / arrows chalo, mouse se dekho, Shift = daudo, Space/C = upar/neeche<br>Mobile: left joystick se chalo, screen drag karke dekho</p>
+</div></div>
+<div id="ui" class="hidden">
+<button data-a="tour">🎥 Tour</button>
+<button data-a="explore">🚶 Explore</button>
+<button data-a="fly">🕊️ Fly</button>
+<button data-a="wheel">🎡 Giant Wheel</button>
+<button data-a="swing">⛵ Jhoola</button>
+<button data-a="dahan" class="fire">🔥 Ravan Dahan</button>
+<button data-a="sound">🔊 Sound</button>
+<button data-a="quality">✨ High</button>
+</div>
+<div id="msg"></div>
+<div id="joy" class="hidden"><div id="knob"></div></div>
+<script type="module" src="main.js"></script>
+</body></html>

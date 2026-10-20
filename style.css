@@ -1,0 +1,16 @@
+html,body{margin:0;height:100%;overflow:hidden;background:#05030a;font-family:system-ui,"Noto Sans Devanagari",sans-serif;touch-action:none}
+#c{width:100%;height:100%;display:block}
+#start{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(#3a1606cc,#05030aee);z-index:10}
+.card{text-align:center;color:#ffe9b0;padding:24px;max-width:520px}
+.card h1{font-size:2.6em;margin:0;color:#ffb300;text-shadow:0 0 20px #ff6a00}
+.card h2{margin:4px 0 12px;color:#fff}
+#go{font-size:1.4em;padding:14px 28px;border:0;border-radius:40px;background:linear-gradient(#ffcf33,#ff6a00);color:#3a0d00;font-weight:800;cursor:pointer;box-shadow:0 0 30px #ff8a00}
+.small{font-size:.85em;opacity:.8}
+#ui{position:fixed;top:8px;left:50%;transform:translateX(-50%);display:flex;flex-wrap:wrap;gap:6px;justify-content:center;z-index:5;max-width:98vw}
+#ui button{background:#000a;color:#ffe9b0;border:1px solid #ffb30088;border-radius:18px;padding:7px 11px;font-size:14px;cursor:pointer}
+#ui button.on{background:#ff8a00;color:#200}
+#ui button.fire{border-color:#ff3d00;color:#ffd0b0}
+.hidden{display:none!important}
+#msg{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);color:#fff;font-size:20px;font-weight:700;text-shadow:0 0 10px #f60,0 2px 4px #000;pointer-events:none;z-index:5;text-align:center}
+#joy{position:fixed;left:24px;bottom:24px;width:120px;height:120px;border-radius:50%;background:#ffffff22;border:2px solid #ffffff55;z-index:6}
+#knob{position:absolute;left:35px;top:35px;width:50px;height:50px;border-radius:50%;background:#ffb300aa}
